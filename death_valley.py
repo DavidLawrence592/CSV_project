@@ -72,12 +72,11 @@ plt.tick_params(axis="both", labelsize=12)
 
 plt.show()
 
-"""
 # matplotlibs pyplot API has a convenience function called subplots() which acts as a
 # utility wrapper and helps in creating common layouts of subplots, including the
 # enclosing figure object, in a single cell.
 
-fig2, a = plt.subplots(2)
+fig, a = plt.subplots(2)
 
 
 a[0].plot(dates, highs, c="red")
@@ -85,4 +84,3 @@ a[1].plot(dates, lows, c="blue")
 
 
 plt.show()
-"""
